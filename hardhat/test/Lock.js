@@ -73,7 +73,7 @@ describe("Lock", function () {
           deployOneYearLockFixture
         );
 
-        // We can increase the time in Hardhat Network
+        // We can increase the time in Hardhat Network 
         await time.increaseTo(unlockTime);
 
         // We use lock.connect() to send a transaction from another account
